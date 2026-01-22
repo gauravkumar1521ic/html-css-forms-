@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital@1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+:root{
+    --roboto:'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+body{
+background-color: #e3e3e3;
+font-family: var(--roboto);
+
+
+}
+@media only screen and (max-width:400px){
+    form .container{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+@media only screen and (max-width:800px){
+    form .container{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+form{
+    width:40%;
+    min-height:800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px 32px;
+    
+
+}
+form .h4{
+    color:#f1a501;
+    font-weight:bold;
+    padding:12px 32px ;
+    font-size: 15px;
+    display: block;
+   
+   
+}
+
+form input[type="text"]{
+    margin:8px 32px;   
+    width:478px;
+    height:45px;
+    padding:0px 30px;
+}
+
+form input[type="email"]{
+    margin:8px 32px;   
+    width:478px;
+    height:45px;
+    padding:0px 30px;
+}
+form input[type="Password"]{
+    margin:8px 32px;   
+    width:478px;
+    height:45px;
+    padding:0px 30px;
+}
+form input{
+    border-radius:4px;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.108) ;
+    outline: none;
+}
+.date_of_beth{
+    display: flex;
+    margin-left:32px;
+    padding-top:15px;
+    margin-bottom: 30px;
+
+}
+.DD{
+    width:55px;
+    height:43px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color:#f8f8f8;
+    border-radius:4px;
+    padding: 12px 15px;
+    opacity: 75%;
+   
+}
+.MM{
+    width:55px;
+    height:43px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color:#f8f8f8;
+    border-radius:4px;
+    padding: 12px 15px;
+    margin-left:15px;
+    opacity: 75%;
+}
+.YY{
+    width:68px;
+    height:43px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color:#f8f8f8;
+    border-radius:4px;
+    padding: 12px 15px;
+    margin-left:15px;   
+    opacity: 75%;
+}
+.h5 , .h3{
+    color:#f1a501;
+    font-weight:bold;
+    font-size: 15px;
+}
+.DG{
+    display: flex;
+    margin-left:34px;
+    padding-top:20px;   
+}
+.DG .h3{
+
+    padding-left: 38%;
+}
+.Gender{
+    width: 110px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color:#f8f8f8;
+    padding: 10px 30px;
+    font-size: 14px;
+    padding-top: 15px;
+    opacity: 75%;
+}
+.gender1{
+    display: flex;
+    padding-left:50px;
+}
+.payment{
+    display: flex;
+    padding-left:32px;
+    padding-top:10px;
+}
+.Credit_card{
+    width:240px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding-top:12px;
+    background-color: #f1a501;
+    color:white;
+    text-align: center;
+    
+}
+.Paypal{
+    width:240px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    padding: 10px 60px;  
+    opacity: 75%;
+    text-align: center;
+}
+form input[type="number"]{
+    margin:8px 32px;   
+    width:478px;
+    height:45px;
+    padding:0px 30px;
+    margin-top:15px;
+}
+
+.card{
+    display:flex;
+}
+.year1{
+    width: 110px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color:#f8f8f8;
+    margin-top:8px;
+    padding:15px 30px;
+    opacity: 75%;
+}
+.year2{
+    width: 110px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color:#f8f8f8;
+    margin-top:8px;
+    padding:15px 30px;
+    opacity: 75%;
+}
+.check{
+    display: flex;
+    margin-left:34px;
+    opacity: 75%;
+    
+}
+
+p{
+    margin-left:15px;
+    padding-top: 20px;
+    
+
+}
+
